@@ -1,0 +1,52 @@
+
+
+.row{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+h2{
+    text-align: center;
+    color:#00ff9d;
+    font-family: monospace;
+}
+.para{
+    color:rgb(0, 255, 191);
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+}
+h5{
+    color: #00b36e;
+    font-family: monospace;
+}
+p,a{
+    color: white;
+    font-family: cursive;
+    font-size: 17px;
+}
+.card-01{
+  background: #000000;
+  position: relative;
+  flex: 1;
+  height:auto;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(151, 151, 151, 0.2);
+}
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0px 10px 10px white;
+
+}
+@media (max-width:800px){
+  .card-01{
+    flex: 100%;
+    margin-bottom: 50px;
+   height:auto;
+  }
+
+}
