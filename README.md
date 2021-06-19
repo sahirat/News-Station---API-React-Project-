@@ -2,3 +2,5 @@ This Project is based on API ( https://newsapi.org/ ) which help in building the
 
 ![Screenshot](Screenshot (54).png)
 
+<img src="Screenshot (54).png" />
+
